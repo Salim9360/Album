@@ -7,3 +7,73 @@ img{
     object-fit: cover;
     object-fit: contain;
 }
+
+h3.Tracklist{
+    text-align: center;
+}
+
+ol{
+    background: white;
+    border-bottom: 5px solid black;
+    border-top: 5px solid black;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: beige;
+}
+
+p {
+    animation-duration: 5s;
+    animation-name: glissement;
+    animation-iteration-count: 0s;
+  }
+  
+  .aller {
+    animation-direction: normal;
+  }
+  
+  .retour {
+    animation-direction: reverse;
+  }
+  @keyframes glissement {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+  ol{
+    animation-duration: 5s;
+    animation-name: glissement;
+    animation-iteration-count: 0s;
+  }
+  
+  .aller {
+    animation-direction: normal;
+  }
+  
+  .retour {
+    animation-direction: reverse;
+  }
+  @keyframes glissement {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
